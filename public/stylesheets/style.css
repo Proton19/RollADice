@@ -1,12 +1,11 @@
-.side1 {
+p {
+	padding-top: 50px;
+	padding-left: 600px;
+	font-size: 30px;
 }
-.side2 {
-}
-.side3 {
-}
-.side4 {
-}
-.side5 {
-}
-.side6 {
+
+.dice {
+	display: inline-block;
+	padding-top: 50px;
+	padding-left: 50px;
 }
