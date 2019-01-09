@@ -8,13 +8,13 @@ body {
 	background-color: #e8ebf2;
 }
 
-.dice-inactive {
+.dice-active {
 	display: inline-block;
-	opacity: 0;
 	padding-left: 50px;
 }
 
-.dice-active {
+.dice-inactive {
 	display: inline-block;
+	opacity: 0;
 	padding-left: 50px;
 }
