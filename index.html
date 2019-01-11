@@ -4,29 +4,54 @@
 		<meta charset="UTF-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
-		<link rel="stylesheet" href="style.css" />
+		<link rel="stylesheet" href="public/stylesheets/style.css" />
+		<link
+			href="https://fonts.googleapis.com/css?family=Staatliches"
+			rel="stylesheet"
+		/>
 		<title>Roll A Dice</title>
 	</head>
 
 	<body>
-		<div class="side1">
-			<img src="" alt="This is a picture of a numbered dice" />
+		<div data-key="1" class="dice div--dice-1">
+			<img
+				src="public/images/dice1.png"
+				alt="This is a picture of a dice on side 1"
+			/>
 		</div>
-		<div class="side2">
-			<img src="" alt="This is a picture of a numbered dice" />
+		<div data-key="2" class="dice div--dice-2">
+			<img
+				src="public/images/dice2.png"
+				alt="This is a picture of a dice on side 2"
+			/>
 		</div>
-		<div class="side3">
-			<img src="" alt="This is a picture of a numbered dice" />
+		<div data-key="3" class="dice div--dice-3">
+			<img
+				src="public/images/dice3.png"
+				alt="This is a picture of a dice on side 3"
+			/>
 		</div>
-		<div class="side4">
-			<img src="" alt="This is a picture of a numbered dice" />
+		<div data-key="4" class="dice div--dice-4">
+			<img
+				src="public/images/dice4.png"
+				alt="This is a picture of a dice on side 4"
+			/>
 		</div>
-		<div class="side5">
-			<img src="" alt="This is a picture of a numbered dice" />
+		<div data-key="5" class="dice div--dice-5">
+			<img
+				src="public/images/dice5.png"
+				alt="This is a picture of a dice on side 5"
+			/>
 		</div>
-		<div class="side6">
-			<img src="" alt="This is a picture of a numbered dice" />
+		<div data-key="6" class="dice div--dice-6">
+			<img
+				src="public/images/dice6.png"
+				alt="This is a picture of a dice on side 6"
+			/>
 		</div>
+
+		<button class="button--dice-roll">Roll</button>
+		<p class="paragraph--textarea-rolled"></p>
 	</body>
 
 	<script src="public/javascripts/script.js"></script>

@@ -1,12 +1,40 @@
-.side1 {
+body {
+	background: rgba(22, 118, 160, 1);
 }
-.side2 {
+
+p {
+	padding-top: 150px;
+	padding-left: 618px;
+	font-size: 30px;
+	font-family: "Staatliches", cursive;
 }
-.side3 {
+
+button {
+	position: absolute;
+	top: 350px;
+	right: 660px;
+	padding: 10px;
+	border-radius: 10px;
+	padding-left: 60px;
+	padding-right: 60px;
+	text-align: center;
+	font-family: "Staatliches", cursive;
+	font-size: 20px;
+	border: none;
+	box-shadow: 5px 10px;
+	background-color: rgba(102, 194, 233, 1);
 }
-.side4 {
+
+button:focus {
+	outline: 0;
 }
-.side5 {
+
+.dice {
+	display: inline-block;
+	padding: 30px;
+	opacity: 0;
 }
-.side6 {
+
+.dice-active {
+	opacity: 1;
 }
